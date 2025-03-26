@@ -27,4 +27,4 @@ class Triangle extends Form {
         return super.toString() + "Triabgle with base =" +base + "and height =" +height;
     }
 
-}
+}//

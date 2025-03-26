@@ -14,3 +14,4 @@ public class Application {
         System.out.println("Triangle3 equals to Triangle1: " + tri.equals(tri3));
     }
 }
+//
