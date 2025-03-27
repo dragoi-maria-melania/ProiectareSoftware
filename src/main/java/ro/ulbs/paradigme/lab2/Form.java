@@ -8,6 +8,9 @@ public class Form {
 
     public Form() {
         this.color = "white";
+        //lab 3
+        //incrementam contorul la fiecare instanta creata de tip Form
+        counter++;
     }
 
 
@@ -29,5 +32,16 @@ public class Form {
     public String toString (){
         return "This form has the color"+color;
 
+    }
+
+//laboratorul 3
+    //contor
+//membru static
+    private static int counter =0;
+
+//functie getter
+    //returnam valuarea contorului
+    public static int getCounter(){
+        return counter;
     }
 }
