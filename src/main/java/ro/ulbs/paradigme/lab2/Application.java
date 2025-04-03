@@ -18,4 +18,7 @@ public class Application {
         //apelam metoda statica getter pentru a obtine si afisa valoarea contorului
         System.out.println("Instantele create:" + Form.getCounter());
     }
+
+
+
 }
