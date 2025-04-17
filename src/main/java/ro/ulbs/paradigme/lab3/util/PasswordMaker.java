@@ -31,4 +31,5 @@ public class PasswordMaker {
 
         return randomPart + magicSubstring + nameLength + randomNumber;  // Construim parola
     }
+
 }

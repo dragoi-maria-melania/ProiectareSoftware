@@ -11,4 +11,5 @@ public class StringRandomizer {
         }
         return sb.toString();  // Returnăm șirul generat
     }
+
 }
